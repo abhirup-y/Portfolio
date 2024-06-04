@@ -430,3 +430,54 @@ footer {
 footer p {
   text-align: center;
 }
+
+.skills-certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.skills-container,
+.certifications-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.section-sub-title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.skill-list,
+.certification-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-list li,
+.certification-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.certification-details {
+  flex: 1;
+}
